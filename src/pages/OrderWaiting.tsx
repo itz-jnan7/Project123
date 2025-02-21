@@ -167,7 +167,7 @@ export default function OrderWaiting() {
           {currentOrder.status === 'ready' && (
             <div className="bg-green-50 border border-green-200 p-4 rounded-lg text-center">
               <p className="text-green-700 font-medium">
-                Your order is ready! Please collect it from the counter.
+                Your order is ready! Please wait for the Waiter.
               </p>
             </div>
           )}
